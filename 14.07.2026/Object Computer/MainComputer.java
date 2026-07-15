@@ -4,14 +4,19 @@ class MainComputer{
 		c=new Computer();
 		
 		c.color="Red";
-		c.wight=1;
+		c.ram=16;
 		c.madeIn="Srilanka";
 		c.price=100;
+		c.storage=512;
 		
-		System.out.println("Color"+c.color);
-		System.out.println("Hight"+c.wight);
-		System.out.println("Madein"+c.madeIn);
-		System.out.println("Price"+c.price);
-		c.write();
+		System.out.println("Color :"+c.color);
+		System.out.println("Ram :"+c.ram);
+		System.out.println("Madein :"+c.madeIn);
+		System.out.println("Price :"+c.price);
+		System.out.println("Storage : :"+c.storage);
+		c.coding();
+		c.play();
+		c.edit();
+
 	}	
 }

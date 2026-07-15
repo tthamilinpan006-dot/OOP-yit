@@ -1,13 +1,20 @@
 class Computer{
 	String color;	
-	double wight;
+	double ram;
 	String brand;
 	String madeIn;
 	double price;
+	int storage;
 
 	
 	
-	void write(){
-		System.out.println("This is Pen Write");
+	void play(){
+		System.out.println("Play Games ");
+	}
+	void coding(){
+		System.out.println("write coding ");
+	}
+	void edit(){
+		System.out.println("video editing ");
 	}
 }
