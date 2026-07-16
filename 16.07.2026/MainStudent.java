@@ -1,13 +1,18 @@
+import java.util.Scanner;
 class MainStudent{
 	public static void main(String args[]){
+		Scanner scan=new Scanner(System.in);
+		
 		Student s= new Student();
 		
-		s.setStudent(1010,"Thamilinpan");
+		System.out.print("Enter Your ID :");	
+		int id=scan.nextInt();
+		System.out.print("Enter Your Name :");	
+		String name=scan.nextLine();
+		
+		s.setStudent(id,name);
 		s.getStudent();
 		
-		Student s1= new Student();
 		
-		s1.setStudent(1011,"Thivya");
-		s1.getStudent();
 	}
 }
