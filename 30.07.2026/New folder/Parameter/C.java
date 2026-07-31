@@ -1,7 +1,7 @@
 class C extends B{
 	int z;
 	C(int x,int y,int z){
-		super(y);
+		super(y,x);
 		this.z=z;
 		
 	}
